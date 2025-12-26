@@ -162,6 +162,41 @@ footer{
     justify-items: center;
 }
 
+@media(min-width:760px){
+    .footer-info{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-template-areas: 
+        "paragraph-section address-section join-action "
+        "paragraph-section address-section join-action "
+        "paragraph-section address-section join-action "
+
+
+        ;
+        gap: 1rem;
+        justify-content: space-evenly;
+        max-width: fit-content;
+        margin: 0 auto;
+
+    }
+
+    .paragraph-section{
+        grid-area: paragraph-section;
+
+    }
+
+    .address-section{
+        grid-area: address-section;
+    }
+
+    .join-action{
+        grid-area: join-action;
+    }
+
+   
+   
+}
+
 .paragraph-section{
     padding: 1rem;
     width: 80%;

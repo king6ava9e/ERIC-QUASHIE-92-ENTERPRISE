@@ -7,3 +7,8 @@ hamburgerButton.addEventListener("click", () =>{
       Nav.classList.toggle("show");
     
 })
+
+/************** FOOTER YEAR INSERTION **************/
+const yearElement = document.getElementById("year");
+const currentYear = new Date().getFullYear();
+yearElement.textContent = currentYear;
