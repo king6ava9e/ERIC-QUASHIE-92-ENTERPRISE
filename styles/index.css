@@ -237,3 +237,50 @@ footer{
     padding: 0.3rem;
     
 }
+
+
+
+/***************** working on the main ********************/
+
+
+main{
+width: 90%;
+display: flex;
+justify-content: center;
+align-items: center;
+margin: 0 auto;
+flex-direction: column;
+
+}
+.hero-image-section{
+    margin: 0 auto;
+    justify-items: center;
+    align-items: center;
+    padding: 1rem;
+    width: 90%;
+     
+}
+
+.call-to-action-button{
+    border: 3px solid goldenrod;
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+    border-radius: 20%;  
+}
+.call-to-action-button:hover{
+    background-color: rgba(11, 54, 94, 0.877);
+    color: goldenrod;
+    cursor: pointer;
+    transition: 0.7s;
+}
+
+.about-us-intro-paragraph{
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+    color:rgba(1, 2, 2, 0.925) ;
+    
+}
+
+.what-we-offer-paragraph{
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+    color:rgba(1, 2, 2, 0.925) ;
+    
+}
