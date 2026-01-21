@@ -91,12 +91,107 @@
     </nav>
 
     <main>
-        
+        <!-- making the forms for the page-->
+         <form action="thank-you.html
+         " method="get" enctype="multipart/form-data">
+         <!--Personal Informations-->
+         <fieldset>
+            <legend>Personal Information</legend>
+            <!--Full name of user-->
+            <div>
+                <label for="firstname">Firstname</label>
+                <input type="text"  name="firstname" id="firstname" placeholder="eg: Kingsley" required>
+            </div>
+
+            <div>
+            <label for="lasttname">Lastname</label>
+            <input type="text" name="lastname" id="lastname" placeholder="eg: Acheampong" required>
+            </div >
+
+            <!--Email-->
+            <div>
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" required >
+            </div>
+
+            <!--Phone Number-->
+            <div>
+                <label for="phone">Tel</label>
+                <input type="tel" name="phone" id="phone" required pattern="^[0-9]+" placeholder="eg: +233204961832">
+            </div>
+
+            <!--Gender-->
+            <div>
+                <label for="male">Male</label>
+                <input type="radio" name="gender" id="male" value="male">
+            </div>
+
+            <div>
+                <label for="female">Female</label>
+                <input type="radio" name="gender" id="female" value="female">
+            </div>
+            </fieldset>
+
+            <!--Services-->
+            <fieldset>
+                <Legend>Services</Legend>
+            <!--checkbox for favorite services-->
+            <div>
+                <p>What is your prefered Services?</p>
+                <label for="Solar Installations">Solar Installations</label>
+                <input type="checkbox" name="Solar Installations" id="Solar Installations">
+            </div>
+
+            <div> 
+                <label for="Electrical Wiring">Electrical Wiring</label>
+                <input type="checkbox" name="Electrical Wiring" id="Electrical Wiring">
+            </div>
+
+            <div>
+                <label for="Appliances Repair">Appliances Repair</label>
+                <input type="checkbox" name="Appliances Repair" id="Appliances Repair">
+            </div>
+        </fieldset>
+
+            <!--personal statement-->
+            <fieldset>
+                <legend>Leave us a message</legend>
+                <label for="message">Message:</label>
+                <input type="text" name="message" id="message" placeholder="Type in your message here">
+            </fieldset>
+
+            <!--Ratings-->
+            <fieldset>
+                <legend>Rate your experince with us</legend>
+                
+                <label for="Ratings">Rating</label>
+                <select name="Ratings" id="Ratings">
+                    <option value="">Select a rating</option>
+                    <option value="5">5</option>
+                    <option value="4">4</option>
+                    <option value="3">3</option>
+                    <option value="2">2</option>
+                    <option value="1">1</option>
+                </select required>
+          
+            </fieldset>
+
+            <div>
+            <label for="file">Upload a file</label>
+            <input type="file" name="file" id="file">
+            </div>
+
+            <button type="submit">Send Feedback</button>
+            <button type="reset">Reset</button>
+
+
+        </form>
     </main>
     
 <footer>
     <div><img class="w-[5rem] [@media(min-width:650px)]:w-[10rem]" src="images/eric quarshie image.png"
-            alt="company logo"></div>
+            alt="company logo"></div>Activity Instructions
+
 
     <section class="footer-info">
         <div class="paragraph-section ">
